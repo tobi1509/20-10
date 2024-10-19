@@ -630,9 +630,9 @@
 
         #castle #table {
             position: absolute;
-            left: calc(50% - 200px);
-            top: calc(50% - 50px);
-            width: 400px;
+            left: calc(53% - 200px);
+            top: calc(40% - 40px);
+            width: 350px;
             height: 400px;
             background: radial-gradient(#a3727e, #af7279, #a16674);
             border-radius: 100%;
@@ -652,8 +652,8 @@
             position: absolute;
             left: 20px;
             top: 100px;
-            width: 160px;
-            height: 300px;
+            width: 170px;
+            height: 250px;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
             border-left: 1px solid rgba(255, 255, 255, 0.5);
             border-right: 1px solid rgba(255, 255, 255, 0.6);
@@ -700,8 +700,8 @@
             position: relative;
             left: 20px;
             top: 100px;
-            width: 160px;
-            height: 300px;
+            width: 170px;
+            height: 250px;
             border-top-left-radius: 50% 30%;
             border-top-right-radius: 50% 30%;
             border-bottom: none;
@@ -988,8 +988,9 @@
 
         <text dy="-2">
             <textPath style="font-family: fantasy;" xlink:href="#partialPath" startOffset="12">
-                Happy Women's Day
-                🌹.......................................................................From CyberSoft !..........................................
+                🌹Happy Women's Day
+                🌹............................................................................................................................🌹From
+                With Love 20/10!🌹   
             </textPath>
         </text>
 
@@ -1328,10 +1329,6 @@
                 document.querySelector("#rose-t").style.display = "none";
                 document.querySelector("#castle").style.display = "flex"; // Thay đổi từ "none" thành "flex"
                 document.querySelector("#theSvg").style.display = "inherit"
-        
-                document.querySelector("#svgRose").style.display = "none";
-                document.querySelector("#text-click").style.display = "none";
-        
 
                 rid = window.requestAnimationFrame(Typing);
                 function Typing() {
@@ -1431,7 +1428,7 @@
         // .textLetter text h2
         let indexText = 0;
         let textLetter = document.querySelector('.textLetter h2');
-        const textLetterH2 = "Gửi cậu!";
+        const textLetterH2 = "Đây là món quà nhỏ em tặng chi!";
         let timoutTextLetter;
 
         function textCharLetter() {
@@ -1459,7 +1456,7 @@
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Hôm nay là ngày 08/03. Xin gửi lời chúc tới người tớ yêu thương nhất. Luôn vui vẻ, luôn hạnh phúc và luôn may mắn trong cuộc sống, ngày càng xinh đẹp. Xin gửi tất cả lời chúc tốt đẹp đến với cậu. Love You💗";
+        const textLetterP = "Hôm nay là một ngày cực kỳ đặc biệt. Em muốn dành những điều ngọt ngào và tốt nhất cho người đặc biệt trong trái tim này. Chúc chị sẽ trở thành đóa hoa xinh đẹp nhất, hạnh phúc và luôn nở nụ cười trên môi💗";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
